@@ -1,0 +1,25 @@
+﻿<Window x:Class="треугольник.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:треугольник"
+        mc:Ignorable="d"
+        Title="Треугольник" Height="500" Width="600">
+    <Grid Background="#FFD0C4FF">
+        <Label Content="Введите длины сторон треугольника" Margin="0,69,0,0" VerticalAlignment="Top" Height="55" Width="450" FontSize="24" FontWeight="Bold" Cursor="" HorizontalAlignment="Center"/>
+        <TextBox x:Name="sideA" HorizontalAlignment="Left" Margin="10,159,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="180" Height="55" FontSize="36"/>
+        <TextBox x:Name="sideB" HorizontalAlignment="Left" Margin="410,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="55" FontSize="36"/>
+        <TextBox x:Name="sideC" HorizontalAlignment="Center" Margin="0,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="55" FontSize="36"/>
+        <Button Content="Проверить" HorizontalAlignment="Center" Margin="0,279,0,0" VerticalAlignment="Top" Height="50" Width="180" Background="#FF8EF76F" FontWeight="Bold" FontSize="20" Click="Button_Click"/>
+        <Label Content="а" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="b" HorizontalAlignment="Left" Margin="210,125,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="с" HorizontalAlignment="Left" Margin="410,125,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock x:Name="resultext" HorizontalAlignment="Left" Margin="75,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="440" FontSize="24" TextAlignment="Center"/>
+        <Button HorizontalAlignment="Left" Margin="419,279,0,0" VerticalAlignment="Top" Height="50" Width="51" Click="Button_Click_1" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/ooo-klining-grupp-9b0e39f98b1a963d3b2e4f0376aae81b.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
